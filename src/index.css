@@ -13,7 +13,7 @@ hr {
 }
 
 #headContainer {
-    background: linear-gradient(-45deg, #00ffaa, #00bb66, #0066bb, #00aaff);
+    background: linear-gradient(-45deg, #00ffaa, #00bb66, #0066bb, #003366);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
 }
@@ -28,4 +28,20 @@ hr {
     100% {
         background-position: 0% 50%;
     }
+}
+
+.icon {
+    width: 2rem;
+}
+
+.btn-custom-b {
+    color: #0066bb;
+    background-color: #fff;
+    border-color: #0066bb;
+}
+
+.btn-custom-g {
+    color: #00bb66;
+    background-color: #fff;
+    border-color: #00bb66;
 }

@@ -37,21 +37,55 @@
       </ul>
     </nav>
 
-    <div class="vh-100 container mt-5">
+    <div class="container my-5">
       <div class="row">
-        <div class="col-md">
-          <h1 class="text-center mb-3" data-aos="fade-up">Hello!</h1>
+        <div class="col-md order-2">
+          <h1 class="mb-3" data-aos="fade-up">Hello!</h1>
           <p class="text-justify mt-3" data-aos="fade-up">I'm Devon Ulrich, a current
-             sophomore at Princeton. I'm majoring in CS, and am planning on minoring
-             in Statistics &amp; Machine Learning and Quantitative &amp; Computational
-             Biology. I love to program and learn all about computer science, and I've
-             done a bunch of cool projects that you can check out down below.
+            sophomore at Princeton. I'm majoring in CS, and am planning on minoring
+            in Statistics &amp; Machine Learning and Quantitative &amp; Computational
+            Biology. I love to program and learn all about computer science, and I've
+            done a bunch of cool projects that you can check out down below.
           </p>
+          <h4 data-aos="fade-up">Here are some of my skills</h4>
+          <ul data-aos="fade-up">
+            <li><u>Programming Languages</u>: Java, C/C++, MATLAB, Python, Javascript,
+              OCaml</li>
+            <li><u>Web Tools &amp; Frameworks</u>: HTML/CSS, React, Bootstrap, Webpack</li>
+            <li><u>SWE Environments &amp; Tools</u>: Linux, Git/GitHub, Bash</li>
+            <li><u>Other Software</u>: Photoshop</li>
+            <li><u>Foreign Languages</u>: Spanish (NJ Department of Education's
+              Certificate of Biliteracy)</li>
+          </ul>
         </div>
-        <div class="col-md">
-
+        <div class="col-md-4 order-1 d-flex justify-content-center">
+          <div>
+            <img src=<%=require('./images/me.jpg').default%> 
+              class="rounded-circle img-thumbnail mx-auto" />
+            <div class="mt-3 d-none d-md-block text-center">
+              <a href="https://www.linkedin.com/in/devon-ulrich-a57b2b1b4/">
+                <img src=<%=require('./images/linkedin-brands.svg').default%> 
+                  class="icon mr-1" />
+              </a>
+              <a href="https://github.com/devonulrich">
+                <img src=<%=require('./images/github-square-brands.svg').default%>
+                  class="icon ml-1" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="row d-md-none" data-aos="fade-up">
+        <div class="col text-center">
+          <a href="https://www.linkedin.com/in/devon-ulrich-a57b2b1b4/" role="button" 
+            class="btn btn-custom-b">LinkedIn</a>
+          <a href="https://github.com/devonulrich" role="button"
+            class="btn btn-custom-g">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light vh-100">
     </div>
   </body>
 </html>
