@@ -7,3 +7,9 @@ hr {
     color: white;
     background-color: white;
 }
+
+#headContainer {
+    background-image: url("images/tahoe.jpg");
+    background-position: center;
+    background-size: cover;
+}
