@@ -12,11 +12,14 @@ module.exports = {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
+    host: '0.0.0.0',
+    port: '3000',
   },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       template: 'src/index.html',
+      inject: 'head',
     }),
   ],
   module: {
