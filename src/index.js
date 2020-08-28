@@ -27,6 +27,8 @@ $(document).ready(function(){
       });
     } 
   });
-});
 
-window.onload = AOS.init;
+  $('body').scrollspy({target: "#myNav", offset: $('nav').outerHeight()+1});
+
+  AOS.init();
+});
