@@ -34,6 +34,10 @@ hr {
     color: #0066bb!important;
 }
 
+.navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0,0,0,0.5);
+}
+
 .icon {
     width: 2rem;
 }
