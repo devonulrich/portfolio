@@ -30,6 +30,10 @@ hr {
     }
 }
 
+.active {
+    color: #0066bb!important;
+}
+
 .icon {
     width: 2rem;
 }
