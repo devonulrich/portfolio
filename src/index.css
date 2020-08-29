@@ -2,6 +2,14 @@
     color: white;
 }
 
+div {
+    overflow: visible;
+}
+
+body {
+    overflow-x: hidden;
+}
+
 hr {
     width: 30%;
     max-width: 30rem;
@@ -63,11 +71,11 @@ hr {
     width: 1em;
 }
 
-.a-custom-g {
+a {
     color: #00bb66;
 }
 
-.a-custom-g:hover {
+a:hover {
     color: #00bb66;
 }
 
