@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# production
-/dist
-
 # text editor autosaves
 *.swp
 
