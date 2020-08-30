@@ -1,6 +1,3 @@
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import $ from 'jquery';
@@ -29,6 +26,4 @@ $(document).ready(function(){
   });
 
   $('body').scrollspy({target: "#myNav", offset: $('nav').outerHeight()+1});
-
-  AOS.init();
 });
