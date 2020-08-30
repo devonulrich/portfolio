@@ -67,16 +67,20 @@ hr {
     text-decoration: none;
 }
 
-#pton-icon {
-    width: 1em;
-}
-
 a {
     color: #00bb66;
 }
 
 a:hover {
     color: #00bb66;
+}
+
+.a-blue {
+    color: #0066bb;
+}
+
+.a-blue:hover {
+    color: #0066bb;
 }
 
 #footer {
