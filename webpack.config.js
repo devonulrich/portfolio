@@ -16,7 +16,6 @@ module.exports = {
     port: '3000',
   },
   plugins: [
-    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: 'index.html',
       template: 'src/index.html',
